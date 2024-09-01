@@ -1,0 +1,453 @@
+body{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+html, body {
+	overflow-x: hidden !important;
+}
+
+.logo{
+    width: 28%;
+ }
+ .navbar-collapse{
+     justify-content: flex-end;
+     width: 50%;
+     padding-right: 20px;
+ 
+ }
+ .shadow{
+     box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.1000) !important;
+ }
+ 
+ .navbar-collapse ul li{
+    
+     padding: 0px 10px;
+    
+ }
+ 
+ .navbar-collapse ul li a{
+     font-family: "Roboto", sans-serif;  
+     font-weight:600;
+     color:#676060 ;  
+     font-size: 20px;
+ }
+ 
+ .navbar-collapse .active {
+     color: #FCA71A !important;
+ }
+ .navbar-collapse :hover{
+     color: #FCA71A !important;
+ }
+ 
+ 
+ 
+ 
+ .icons{
+     width: 10%;    
+     display: flex;
+     justify-content: flex-end;
+ 
+ }
+ 
+ .fa-linkedin-in{
+     background-color: #FCA71A;
+     padding: 10px !important;
+     font-size: 25px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 20px;
+ }
+ 
+ .fa-linkedin-in:hover{
+ background-color: #feb53f !important;
+ }
+ .fa-x-twitter{
+     background-color: #FCA71A;
+     padding: 10px !important;
+     font-size: 25px;
+    color: #fff;
+    border-radius: 5px;
+ }
+ .fa-x-twitter:hover{
+     background-color: #feb53f !important; 
+ }
+ 
+
+
+
+/*AMS1117 Start*/
+
+.AMS1117{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    
+}
+
+.AMS1117 h1{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    color: #676060;
+   
+}
+.AMS1117 span{
+    color: #FCA71A;
+    font-size: 70px;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+}
+/*AMS1117 End*/
+
+
+/*Products Pictures section*/
+
+/*.products_pictures{
+   max-width:1300px !important;
+    margin: 0px ;
+    padding: 0px;
+   
+    background-color: #fca51a47;
+}*/
+
+.voltage{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+
+}
+
+.products-pictures{
+    background-color: #fff6eb;padding: 3% 0%;
+}
+
+.img_1{
+    width: 120%;
+    object-fit: contain;
+    margin-left: -40% !important;
+    
+}
+.img_2{
+    width: 160%;
+    margin-left: -26%;
+    object-fit: contain;
+}
+.img_3{
+    width: 120%;
+    object-fit: contain;
+    margin-left: 28%;
+}
+
+/*Products Pictures end*/
+
+.pictutes{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+/*Description Start*/
+
+.description{
+    margin-top: 7%;
+}
+
+.description h1{
+   color:#FCA71A ; 
+   font-family: "Roboto", sans-serif;
+   font-weight: bold;
+   font-size: 60px;
+}
+
+.description p{
+    font-size: 33px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: #676060;
+}
+
+
+/*background image 1*/
+.description .img_background_1{
+    width: 20%;
+    object-fit: contain;
+    position: absolute;
+    right:-80px;
+    margin-top:-10%;   
+     
+}
+.description .title1{
+    color:#FCA71A ; 
+   font-family: "Roboto", sans-serif;
+   font-weight: bold;
+   font-size: 60px;
+   margin-top: 5%;
+   margin-bottom: 3%;
+}
+.description h2{
+   color: #676060;
+   font-size: 36px;
+   font-weight: 700;
+   font-family: "Roboto", sans-serif;
+   padding-bottom: 15px;
+}
+
+.description .paras{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #676060;
+    text-align: justify;
+    padding-bottom: 10px;
+   
+}
+
+/* background image 2*/
+.img_background_2{
+    width: 40%;
+    object-fit: contain;
+    position: absolute;
+    right:-160px;
+    margin-top:-20%; 
+}
+.description .title3{
+    color:#FCA71A ; 
+   font-family: "Roboto", sans-serif;
+   font-weight: bold;
+   font-size: 60px;
+   margin-top: 5%;
+   margin-bottom: 2%;
+}
+
+/* btns */
+
+.btn{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+   
+    
+}
+
+.button_1{
+    background-color: #FCA71A;
+    border-radius: 30px;
+    color:#fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    padding: 1% 5%;
+    border: 0px;
+    margin-left: 2%;
+
+}
+
+.button_1:hover{
+    background-color: #feb53f;
+
+}
+
+.footer{
+    text-align: center;
+    margin-top: 4%;
+    padding: 2% 0% 1% 0%;
+    background-color: #fff6eb;
+}
+.footer p{
+    font-size: 24px;
+    color: #676060;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+/*TAB*/ 
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+    html, body {
+        overflow-x: hidden !important;
+    }
+    
+    .logo{
+        width: 50%;       
+
+    }
+    .icons{
+        display: none !important;
+    }
+    .AMS1117 h1{
+        font-size: 65px;
+    }
+    .AMS1117 span{
+        font-size: 65px;
+    }
+    .description h1{
+        font-size: 50px;
+    }
+    .description p{
+        font-size: 30px;
+        
+    }
+    .description .title1, .description .title3{
+        font-size:55px;
+    }
+    .description h2{
+        font-size: 32px;
+    }
+    .description .paras{
+        font-size: 25px;
+    }
+    .img_1{
+        width: 100%;
+        object-fit: contain;
+        margin-left: -10% !important;
+        
+    }
+    .img_2{
+        width: 140%;
+        margin-left: -20%;
+        object-fit: contain;
+    }
+    .img_3{
+        width: 100%; 
+        object-fit: contain;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    .description .img_background_1{
+        width: 20%;
+        object-fit: contain;
+        
+        right:0px;
+        margin-top:-10%;   
+         
+    }
+    .description .img_background_2{
+        width: 20%;
+        object-fit: contain;
+        
+        right:0px;
+        margin-top:-10%;   
+         
+    }
+    .footer{
+        text-align: center;
+        margin-top: 4%;
+        padding: 3% 0% 1% 0%;
+        background-color: #fff6eb;
+    }
+      
+
+}
+
+
+/*MOBiLE*/
+
+@media (max-width: 767px) {
+    
+    html, body {
+        overflow-x: hidden !important;
+    }
+    
+    .logo{
+        width: 70%;
+
+    }
+    .icons{
+        display: none !important;
+    }
+    .navbar-collapse{
+        width: 100%;
+    }
+    .AMS1117 h1{
+        font-size: 45px;
+    }
+    .AMS1117 span{
+        font-size: 45px;
+    }
+    .description h1{
+        font-size: 40px;
+    }
+    .description p{
+        font-size: 25px;
+        
+    }
+    .description .title1, .description .title3{
+        font-size: 45px;
+
+    }
+    .description h2{
+        font-size: 25px;
+    }
+    .footer p{
+        font-size: 15px;
+        padding-top: 15px;
+    }
+    .description .paras{
+        font-size: 22px;
+        word-spacing: -1px;
+    }
+    .paragr{
+        font-size: 20px !important;
+    }
+    .button_1{
+        margin-bottom: 10px;
+        font-size: 20px;
+        margin-right: 5px;
+        padding:2% 6%  !important;
+
+    }
+    .fist_btn{
+        padding:2% 10%  !important;
+        margin-bottom: 15px !important;
+    }
+    .img_1{
+        width: 100%;
+        object-fit: contain;
+        margin-left: 0% !important;
+        
+    }
+    .img_2{
+        width: 100%;
+        margin-left: 0%;
+        object-fit: contain;
+    }
+    .img_3{
+        width: 100%; 
+        object-fit: contain;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+      
+    .description .img_background_1{
+        width: 20%;
+        object-fit: contain;
+        
+        right:0px;
+        margin-top:-10%;   
+         
+    }
+    .description .img_background_2{
+        width: 20%;
+        object-fit: contain;
+        
+        right:0px;
+        margin-top:-10%;   
+         
+    }
+
+
+}
